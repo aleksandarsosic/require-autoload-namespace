@@ -1,10 +1,13 @@
 <?php
 
-// Napisati funkciju za utvrdjivanje da li je string koji sadrzi samo zagrade vazeci (npr. ()[]{} je vazeci, ali ([)] nije)
+    // Napisati funkciju za utvrdjivanje da li je string koji sadrzi samo zagrade vazeci (npr. ()[]{} je vazeci, ali ([)] nije)
+
+    namespace tasks;
 
     class Task_5 {
 
-        public static function validBrackets($s) {
+        public static function validBrackets($s)
+        {
 
             $s = (string)$s;
 
@@ -18,19 +21,19 @@
 
             $countArr = count($arr);
 
-            if($countArr % 2 != 0){
+            if ($countArr % 2 != 0) {
                 return "Not valid!";
             }
 
             $count = 0;
 
-            while($countArr > 0){
+            while ($countArr > 0) {
 
                 $s1 = $arr[0];
                 $s2 = $arr[1];
                 $brackets = $s1 . $s2;
 
-                if($brackets == "()" || $brackets == "[]" || $brackets == "{}"){
+                if ($brackets == "()" || $brackets == "[]" || $brackets == "{}") {
                     array_shift($arr);
                     array_shift($arr);
                 } else {

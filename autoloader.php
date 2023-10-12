@@ -6,7 +6,7 @@
 
         $path = "/tasks/";
         $ext = ".class.php";
-        $fullName = __DIR__ . $path . $filename . $ext;
+        $fullName = __DIR__ . $path . str_replace('\\', '/', $filename) . $ext;
 
         if(file_exists($fullName)) {
 

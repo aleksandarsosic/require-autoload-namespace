@@ -2,6 +2,8 @@
 
     // Napisati funkciju koja preokrece ceo broj (na primer 2876491204 treba da predje u 4021946782)
 
+    namespace tasks;
+
     class Task_1 {
         public static function reverse($n) {
 

@@ -2,24 +2,27 @@
 
     // Napisati funkciju koja pretvara rimski broj u ceo broj (npr. III u 3, IV u 4, IX u 9)
 
+    namespace tasks;
+
     class Task_3 {
 
-        public static function RomanNumerals($r) {
+        public static function RomanNumerals($r)
+        {
 
             $r = (string)$r;
 
-            if(preg_match("/[^ivxlcdmIVXLCDM]/", $r) == true) {
+            if (preg_match("/[^ivxlcdmIVXLCDM]/", $r) == true) {
                 return "Not Roman numerals!";
             }
 
-            if(str_contains($r,"IIII") ){
+            if (str_contains($r, "IIII")) {
                 return "Not allowed!";
             }
 
             $n = [];
 
             for ($i = 0; $i < mb_strlen($r); $i++) {
-                if($r[$i] == "M" || $r[$i] == "m"){
+                if ($r[$i] == "M" || $r[$i] == "m") {
                     $n[] = 1000;
                 } elseif ($r[$i] == "D" || $r[$i] == "d") {
                     $n[] = 500;
@@ -40,7 +43,7 @@
 
             for ($i = 0; $i < count($n); $i++) {
 
-                if($n[$i] >= $n[$i+1]){
+                if ($n[$i] >= $n[$i + 1]) {
                     $a += $n[$i];
                 } else {
                     $a -= $n[$i];

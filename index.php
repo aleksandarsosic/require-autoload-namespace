@@ -2,6 +2,14 @@
 
     require_once 'autoloader.php';
 
+    use tasks\Task_1;
+    use tasks\Task_2;
+    use tasks\Task_3;
+    use tasks\Task_4;
+    use tasks\Task_5;
+    use tasks\Task_6;
+    use tasks\Task_7;
+
     echo "<br>";
 
     echo "********************************TASK 1********************************";
@@ -19,7 +27,6 @@
     echo "<br>";
     echo Task_1::reverseInt(5);
     echo "<br>";
-
     echo "********************************TASK 2********************************";
 
     echo "<br>";

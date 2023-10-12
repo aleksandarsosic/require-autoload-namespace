@@ -2,8 +2,11 @@
 
     // Napisati funkciju za utvrdjivanje da li je dati ceo broj palindrom (npr. 1221 je palindrom dok 1231 nije)
 
+    namespace tasks;
+
     class Task_2 {
-        public static function palindrome($n) {
+        public static function palindrome($n)
+        {
 
             $n = (string)$n;
 
@@ -21,4 +24,3 @@
 
         }
     }
-
