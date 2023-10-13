@@ -3,7 +3,7 @@
     // $arr = [1,3,7,2,9,1,1,9,8,2,4,7,7,1,2,9,1,7,9,2]; Pronaci najmanji broj koraka ako svaki broj predstavlja maksimum broja koraka koji mogu biti ucinjeni unapred od tog indeksa.
     // Dakle naci najmanji broj koraka da bi se stiglo do kraja niza pocevsi od indeksa.
 
-    namespace tasks;
+    namespace Tasks;
 
     class Task_4 {
 

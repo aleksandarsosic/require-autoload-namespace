@@ -2,7 +2,7 @@
 
     // Napisati funkciju za utvrdjivanje da li je string koji sadrzi samo zagrade vazeci (npr. ()[]{} je vazeci, ali ([)] nije)
 
-    namespace tasks;
+    namespace Tasks;
 
     class Task_5 {
 

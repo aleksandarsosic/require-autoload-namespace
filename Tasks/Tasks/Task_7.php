@@ -2,7 +2,7 @@
 
     // Napisati funkciju koja ce za uneti string sa zagradama vratiti string koji je najduzi validan substring (npr. ((() treba da vrati (), ili ())() treba da vrati ()())
 
-    namespace tasks;
+    namespace Tasks;
 
     class Task_7 {
 

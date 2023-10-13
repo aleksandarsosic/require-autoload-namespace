@@ -2,7 +2,8 @@
 
     // Napisati funkciju koja pretvara rimski broj u ceo broj (npr. III u 3, IV u 4, IX u 9)
 
-    namespace tasks;
+
+    namespace Tasks;
 
     class Task_3 {
 

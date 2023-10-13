@@ -1,14 +1,14 @@
 <?php
 
-    require_once 'autoloader.php';
+    require_once './vendor/autoload.php';
 
-    use tasks\Task_1;
-    use tasks\Task_2;
-    use tasks\Task_3;
-    use tasks\Task_4;
-    use tasks\Task_5;
-    use tasks\Task_6;
-    use tasks\Task_7;
+    use Tasks\Task_1;
+    use Tasks\Task_2;
+    use Tasks\Task_3;
+    use Tasks\Task_4;
+    use Tasks\Task_5;
+    use Tasks\Task_6;
+    use Tasks\Task_7;
 
     echo "<br>";
 

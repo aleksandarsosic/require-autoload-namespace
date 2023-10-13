@@ -3,7 +3,7 @@
     // Spojiti dva nesortirana niza u jedan sortirani niz ([5,9,1,7],[2,2,0,4] u [0,1,2,2,4,5,7,9])
     // odraditi sort manuelno
 
-    namespace tasks;
+    namespace Tasks;
 
     class Task_6 {
 
